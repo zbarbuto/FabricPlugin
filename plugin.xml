@@ -11,6 +11,7 @@
     <preference name="FABRIC_API_SECRET" />
 
     <hook type="after_plugin_add" src="hooks/after_plugin_add.js" />
+    <hook type="after_plugin_install" src="hooks/after_plugin_add.js" />
     <hook type="before_plugin_rm" src="hooks/before_plugin_rm.js" />
 
     <js-module name="FabricPlugin" src="www/FabricPlugin.js">
